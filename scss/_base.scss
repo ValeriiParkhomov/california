@@ -1,0 +1,55 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    /* Для того, щоб розмір блоку відповідав заданому і рамка з падінгами шли розмірами всередину */
+}
+
+body {
+    background-color: var(--color-primary-light);
+    color: var(--color-primary-dark);
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    /*Рівномірно маштабує зображення при маштабуванні*/
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
